@@ -42,9 +42,31 @@ background: linear-gradient(90deg, rgba(124,124,149,1) 0%, rgba(172,83,69,1) 39%
 
 .board {
   position: relative;
+  top:-330px;
   margin: 40px auto;
 }
-
+.Text{
+   font-family: 'FontAwesome';
+   font-size:80px;
+   color: white;
+   position: absolute;
+   top:340px;
+   left: 80px;
+}
+.robot_image{
+  position: relative;
+  left: 1000px;
+  top:300px;
+  width: 200px;
+}
+.human_image{
+  position: absolute;
+  top:330px;
+  left:50px;
+}
+img{
+  width: 300px;
+}
 .board__wrapper {
   display: inline-flex;
 }
@@ -75,6 +97,7 @@ background: linear-gradient(90deg, rgba(124,124,149,1) 0%, rgba(172,83,69,1) 39%
     border-radius: 30px;
   }
 }
+
 .board__slot:hover {
   background-color: rgba(0, 0, 0, 0.1);
 }
