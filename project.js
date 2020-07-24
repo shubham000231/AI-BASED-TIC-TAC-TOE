@@ -187,7 +187,7 @@ function minimax(state, player, depth) {
     possible_state[successors[s]] = "";
     moves.push(successors[s]);
   }
-
+  //player
   if (player == "X") {
     AI_MOVE = moves[0];
     max_score = scores[0];
